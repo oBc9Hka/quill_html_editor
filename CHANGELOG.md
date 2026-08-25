@@ -1,3 +1,9 @@
+### 2.2.11
+
+- Updated `file_picker` to `^12.0.0` and migrated to the new pick API
+- Raised minimum SDK to Dart 3.10 / Flutter 3.38 (required by `file_picker` 12)
+- Removed leftover `plugin`/`default_package` entries that referenced `quill_html_editor` and caused build warnings in consumer projects
+
 ### 2.2.10
 
 - Updated the http dependency version
